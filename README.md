@@ -1,11 +1,11 @@
 # Bitcoin-Price-Notifications-With-Python
 
 1. Project Setup
-Start by setting up a virtual environment : $ mkvirtualenv -p $(which python3) bitcoin_notifications
+-Start by setting up a virtual environment : $ mkvirtualenv -p $(which python3) bitcoin_notifications
 
-Activate virtual environment : $ workon bitcoin_notifications
+-Activate virtual environment : $ workon bitcoin_notifications
 
-Install the dependencies: $ pip install requests==2.18.4  # We only need the requests package
+-Install the dependencies: $ pip install requests==2.18.4  # We only need the requests package
 
 
 
@@ -14,8 +14,10 @@ Install the dependencies: $ pip install requests==2.18.4  # We only need the req
 Start by getting the latest price from the Coinmarketcap API in the Python console: import the requests module and define the bitcoin_api_url variable which contains the Coinmarketcap API URL for Bitcoin.
 Send an HTTP GET request to the URL using the requests.get() function and save the response. Since the API returns a JSON response, we can convert it to a Python object by calling the .json() function on the response.
 
+
 3. Sending a Test IFTTT Notification
 To use IFTTT you’ll first need to set up a new account and install their mobile app (if you want to receive phone notifications from your Python app). Once you set that up, we’re going to create a new IFTTT applet for testing purposes.
+
 
 To create a new test applet follow these steps:
 Click on the big “this” button

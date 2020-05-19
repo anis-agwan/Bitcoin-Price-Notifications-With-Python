@@ -2,8 +2,11 @@
 
 1. Project Setup
 Start by setting up a virtual environment : $ mkvirtualenv -p $(which python3) bitcoin_notifications
+
 Activate virtual environment : $ workon bitcoin_notifications
+
 Install the dependencies: $ pip install requests==2.18.4  # We only need the requests package
+
 
 
 
